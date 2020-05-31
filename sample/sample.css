@@ -1,0 +1,26 @@
+.sample-play{
+	-fx-text-fill:#444444;
+	-fx-background-radius: 50px ;
+	-fx-border-radius:50px;
+	-fx-background-color:white;
+	-fx-border-color:#444444;
+	-fx-border-style:solid;
+	-fx-border-width:1px;
+
+
+}
+.sample-play:hover{
+	-fx-text-fill:white;
+	-fx-background-color:#4a5112;
+	-fx-border-color:#4a5112;
+	-fx-cursor:hand;
+}
+.sample-img{
+    -fx-background-colour: #aad5f8;
+}
+.sample-icon{
+	-fx-fill:#444444;
+}
+.sample-icon:hover{
+	-fx-fill:#FF0000;
+}

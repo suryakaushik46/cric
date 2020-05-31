@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="balls.Ballstypecontroller">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="800.0" stylesheets="@../sample/sample.css">
+         <children>
+            <Label layoutX="136.0" layoutY="56.0" text="TYPES OF BALLS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="132.0" prefHeight="28.0" prefWidth="145.0" text="OFF SPINNER:">
+               <font>
+                  <Font name="Avenir Black Oblique" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="128.0" prefHeight="19.0" prefWidth="315.0" text="Right-handed with finger spin technique.">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font></Label>
+            <Label layoutX="12.0" layoutY="176.0" prefHeight="32.0" prefWidth="583.0" text="Arm ball  : The ball doesn’t turn much and travels straight on in the direction of ">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="587.0" layoutY="176.0" text="the arm.">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="149.0" layoutY="242.0" text="Arm ball to off wicket full length" textFill="#6618da">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="277.0" text="Arm ball to mid wicket full length" textFill="#6117e1">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="341.0" text="Doosra/googly :">
+               <font>
+                  <Font name="Apple Chancery" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="119.0" layoutY="340.0" text="The ball spins from the leg side to the offside to a right-handed batsman. ">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="160.0" layoutY="387.0" text="googly ball to off wicket full length" textFill="#611075">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="422.0" text="googly ball to mid wicket full length" textFill="#44094d">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="131.0" fitWidth="143.0" layoutX="425.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/download.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="500.0" text="Top Spinner :">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="119.0" layoutY="503.0" text="The off-spinner would largely try to pitch the delivery on or outside off stump expecting the  ">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="117.0" layoutY="544.0" text="batsman to play for a turn. ">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="172.0" layoutY="584.0" text="Top Spinner to off wicket full length" textFill="#975757">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="175.0" layoutY="619.0" text="Top Spinner to mid wicket full length" textFill="#805e5e">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="131.0" fitWidth="143.0" layoutX="452.0" layoutY="579.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/download%20(1).jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="160.0" layoutY="692.0" text="low toss ball">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="160.0" layoutY="727.0" text="ball at waist range">
+               <font>
+                  <Font name="Apple Chancery" size="17.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView glyphName="ARROW_LEFT" layoutX="12.0" layoutY="35.0" onMouseClicked="#closeapp1" size="25" styleClass="sample-icon" text="" />
+            <Label layoutX="73.0" layoutY="796.0" text="want to add more ball types plz contact kaushikawesome361@gmail.com" textFill="#eb0404">
+               <font>
+                  <Font name="Apple Chancery" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
